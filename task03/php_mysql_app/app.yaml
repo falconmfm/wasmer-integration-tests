@@ -1,0 +1,11 @@
+name: php-mysql-app
+app_id: da_Ko6IotJULk82
+owner: falconmfm
+package: '.'
+capabilities:
+  database:
+    engine: mysql
+debug: true
+scaling:
+  mode: single_concurrency
+kind: wasmer.io/App.v0
