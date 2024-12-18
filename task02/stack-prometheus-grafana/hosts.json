@@ -1,0 +1,32 @@
+{
+  "resource": [
+    {
+      "name": "eu-helsinki-n1",
+      "ip": "95.217.13.211",
+      "labels": {
+        "device_type": "host"
+      }
+    },
+    {
+      "name": "eu-helsinki-n2",
+      "ip": "65.109.165.54",
+      "labels": {
+        "device_type": "host"
+      }
+    },
+    {
+      "name": "eu-hillsboro-n1",
+      "ip": "5.78.76.75",
+      "labels": {
+        "device_type": "host"
+      }
+    },
+    {
+      "name": "eu-hillsboro-n2",
+      "ip": "7.78.77.118",
+      "labels": {
+        "device_type": "host"
+      }
+    }
+  ]
+}
