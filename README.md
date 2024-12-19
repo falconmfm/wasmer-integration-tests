@@ -3,6 +3,34 @@
 Integration tests for validation the Wasmer product stack, in particular the
 CLI, the backend and Edge.
 
+---
+
+## Updates Overview - SRE Interview Tasks
+
+This repository has been updated with new features and tests across three key tasks. Below is a summary of the changes:
+
+### Task 01: Architectural Design for "Pay Me, Please" Billing Metrics System
+- Developed a comprehensive architecture design for a scalable billing metrics system.
+- Includes requirements analysis, proposed architecture, and trade-offs for cost and performance.
+- **Documentation added**: `task01/Architecture_Design.pdf`.
+
+### Task 02: CloudProbe Configuration and Integration with Prometheus
+- Implemented CloudProber as part of a monitoring stack integrated with Prometheus and Grafana.
+- Added configurations for Docker Compose to deploy the stack locally.
+- **Key files**:
+  - `task02/cloudprober.cfg`: Main configuration for CloudProber.
+  - `task02/docker-compose.yaml`: Automation for the monitoring stack deployment.
+  - `task02/prometheus.yml`: Prometheus scrape configurations.
+
+### Task 03: Integration Test for PHP with MySQL Database on Wasmer
+- Created a PHP application with MySQL database connection deployed on Wasmer.
+- Added automated tests using Deno to validate database interactions.
+- **Key files**:
+  - `task03/php_mysql_app`: Contains the PHP application and Wasmer configuration.
+  - `task03/test/php_mysql_test.ts`: Automated test suite.
+
+---
+
 ## Running tests
 
 The tests are written in Typescript, and use the `deno` test runner.
